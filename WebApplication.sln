@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication", "WebApplication\WebApplication.csproj", "{10CAAF68-53BD-403D-8E5F-979C0F7D88B6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseWorkUi.Web", "CourseWorkUi.Web\CourseWorkUi.Web.csproj", "{10CAAF68-53BD-403D-8E5F-979C0F7D88B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="container" style="padding-top: 200px;">
+    <div class="row justify-content-center">
+        <div class="col-5" >
+            <h4>Ввод данных:</h4>
+            <form method="post">
+                <input class="form-control mb-3" name="clockifyId" type="text" placeholder="ClockifyID..." required aria-label="deafult input example" >
+                <input class="form-control mb-3" name="workspaceId" type="text" placeholder="WorkspaceID..." required aria-label="deafult input example">
+                <input class="form-control mb-3" name="youTrackDomain" type="text" placeholder="Youtrack domain..." required aria-label="deafult input example">
+                <input class="form-control mb-3" name="youTrackPermToken" type="text" placeholder="PermToken..." required aria-label="deafult input example">
+                <input class="form-control mb-3" name="taskKey" type="text" placeholder="TaskKey..." required aria-label="deafult input example">
+                <br>
+                <div class="buttons">
+                    <button type="submit" class="btn btn-primary mr-4 ">Добавить</button>
+                    <button type="submit" class="btn btn-primary mr-4 ">Удалить</button>
+                    <button type="submit" class="btn btn-primary ">Изменить</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
